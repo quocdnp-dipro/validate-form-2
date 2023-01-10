@@ -84,7 +84,7 @@ function App() {
                             errors={errors}
                         />
                         <InputField
-                            placeholder="school"
+                            placeholder="school name"
                             control={control}
                             type="text"
                             name="schoolAddress"
@@ -98,7 +98,7 @@ function App() {
                                     <InputField
                                         placeholder="start day"
                                         control={control}
-                                        name={`startDate`}
+                                        name="startDate"
                                         type="date"
                                         errors={errors}
                                         id='name'
@@ -106,7 +106,7 @@ function App() {
                                     <InputField
                                         placeholder="end date"
                                         control={control}
-                                        name={`endDate`}
+                                        name="endDate"
                                         type="date"
                                         errors={errors}
                                     />
@@ -114,11 +114,11 @@ function App() {
                                         placeholder="school"
                                         control={control}
                                         type="text"
-                                        name={`schoolName`}
+                                        name="schoolName"
                                         errors={errors}
                                     />
                                     <InputField
-                                        placeholder="school"
+                                        placeholder="school name"
                                         control={control}
                                         type="text"
                                         name="schoolAddress"
